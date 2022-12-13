@@ -11,7 +11,7 @@
 
 
 #### How to initialize/run your application (where applicable)
-1. `Docker_test/flowers_RestAPI/`
+1. `flowers_RestAPI/`
 2. **Create the venv and activate it.**
 
     `python3.10 -m venv .venv`
@@ -20,6 +20,8 @@
 3. **Installing Django.**
 
     `pip install django`
+
+    `pip install djangorestframework`
     
    or 
 
@@ -39,11 +41,14 @@
 
     `python manage.py createsuperuser`
 
-7. git the list of the flowers 
+7. run container in docker 
+   `docker-compose up`
+
+8. git the list of the flowers 
    
    `http://127.0.0.1:8000/api/v1/flowers/`
   
-8. detaile `http://127.0.0.1:8000/api/v1/flowers/1`
+9.  detaile `http://127.0.0.1:8000/api/v1/flowers/1`
 
 <br>
 
