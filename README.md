@@ -11,7 +11,7 @@
 
 
 #### How to initialize/run your application (where applicable)
-1. `cd flowers_RestAPI`
+1. `Docker_test/flowers_RestAPI/`
 2. **Create the venv and activate it.**
 
     `python3.10 -m venv .venv`
